@@ -11,6 +11,8 @@ from reconbot.apiqueue import ApiQueue
 from reconbot.esi import ESI
 from reconbot.sso import SSO
 from dotenv import load_dotenv
+import collections.abc
+collections.Hashable = collections.abc.Hashable
 
 load_dotenv()
 
