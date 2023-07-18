@@ -24,11 +24,7 @@ Note that if you request the legacy v1 refresh token, it will get updated to v2 
 
 When registering the application take note of the `Client ID` and `Secret Key`, as they are necessary for Reconbot to establish communication with ESI API.
 
-## 2. Slack or Discord chat tools
-
-### Slack
-
-To add a Slack integration, check out [this Slack documentation page on Bot Users](https://api.slack.com/bot-users) (or [create bot user for your workspace](https://my.slack.com/services/new/bot)). Take note of the API token.
+## 2. Discord chat tools
 
 ### Discord
 
