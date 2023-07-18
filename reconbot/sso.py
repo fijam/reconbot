@@ -34,6 +34,7 @@ class SSO:
             response = r.json()            
             self.access_token = response['access_token']
             self.access_token_expiry = self.set_token_expiry(response['expires_in'])
+            self.refresh_token = response['refresh_token']
             return self.access_token
         else:
             r.raise_for_status()
