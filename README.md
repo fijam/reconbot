@@ -20,6 +20,8 @@ When registering your EVE Application, please pick `Authentication & API Access`
 
 Reconbot does not provide a way to authenticate an account to an application, so you will need to do so via some other means. First two sections of Fuzzysteve's guide on [Using ESI with Google Sheets](https://www.fuzzwork.co.uk/2017/03/14/using-esi-google-sheets/) explain how to do that via [Postman](https://www.getpostman.com/).
 
+Note that if you request the legacy v1 refresh token, it will get updated to v2 the next time you use it.
+
 When registering the application take note of the `Client ID` and `Secret Key`, as they are necessary for Reconbot to establish communication with ESI API.
 
 ## 2. Slack or Discord chat tools
